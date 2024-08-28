@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    padding: 2% 5% 3% 3%;
+    
+}
+
+.cabecalho{
+    display: flex;
+    padding: 2% 0% 0% 2%;
+    align-items:baseline;
+    gap:1px; 
+}
+
+.cabecalho__logo{
+    width: 15%; 
+    height: auto; 
+}
+
+.cabecalho__texto{
+    font-size: 3rem;
+    color: #0A3871;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 1% 5rem 0% 15.5%;
+}
+
+.main__aviso{
+    width: 50%;
+    height: auto;
+}
+
+textarea{
+    background: transparent;
+    color: #0A3871;
+    border: 0 none;
+    outline: none;
+    height: 16.5rem;
+    width: 38rem; 
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+}
+
+textarea:focus {
+    outline: 1px solid #0A3871;
+}
+
+.retangulo-branco {
+    
+    width: 18.75rem;          
+    height: 29rem;         
+    background-color: white; 
+    border-radius: 30px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
+    padding: 3rem; 
+    overflow: hidden;
+}
+
+.retangulo-branco__erro{  
+    display: flex;
+    flex-direction: column;    
+    height: 16rem; 
+    width: auto;
+    padding: 3rem 1rem ;
+      
+}
+
+.retangulo-branco__erro_p1{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #343A40;
+}
+
+
+.retangulo-branco__erro_p2{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #343A40;
+}
+
+
+.retangulo-branco__mensagem {
+    font-family: "Inter", sans-serif;
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    font-size: 1.5rem;
+    color: #343A40;
+    word-wrap: normal; 
+    overflow-wrap: normal; 
+    hyphens: none; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    max-height: 26rem; 
+    padding: 1rem;
+    box-sizing: border-box;
+    
+    overflow-wrap: break-word;
+}
+
+.main__butao{
+    display: flex;
+    gap: 30px;
+}
+
+
+.cripitografar{
+    border: none;
+    background-color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 16;
+    color: #FFFF;
+    width: 10rem;
+    border-radius: 9px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem;
+}
+
+.cripitografar:hover {
+    background-color: #082e5c; /* Cor de fundo ao passar o mouse */
+}
+
+.descriptografar{
+    background-color: #D8DFE8;
+    font-family: "Inter", sans-serif;
+    font-size: 16;
+    color: #0A3871;
+    border: #0A3871 2px;
+    width: 10rem;
+    border-radius: 9px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem; 
+}
+
+.descriptografar:hover {
+    background-color: #bbc2cb; 
+}
+

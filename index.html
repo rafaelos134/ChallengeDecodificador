@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style/estilo.css">    
+</head>
+<body>
+    <section >
+        <header class="cabecalho" >
+            <img class="cabecalho__logo" src="icons/Sem título.png">
+            <h2 class="cabecalho__texto">Decodificador de texto</h2>       
+        </header>
+        <main>
+            <textarea calss ="main__caixaTexto" id="caixaTexto" >Digite seu texto</textarea>
+            <img class="main__aviso" src="icons/aviso.png">
+            <div class="main__butao">
+                
+                <button class ="cripitografar" id="cripitografar">Criptografar</button>
+                <button class = "descriptografar" id = "descriptografar">Descriptografar</button>
+            </div>
+    
+            <script src="script/decodificacao.js"></script>
+        </main>
+    </section>
+    <div class="retangulo-branco" id = "retangulo-branco"> 
+        <div class="retangulo-branco__erro" id="retangulo-branco__erro" style="display: flex;">
+            <img class="retangulo-branco__erro_img" src="icons/High quality products 1 1.png">
+            <p class="retangulo-branco__erro_p1">Nenhuma mensagem encontrada</p>
+            <p class="retangulo-branco__erro_p2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+
+        <div class="retangulo-branco__mensagem" id="retangulo-branco__mensagem" style="display: none;">
+        
+        </div>  
+    </div>
+</body>
+</html>
